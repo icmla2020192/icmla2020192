@@ -28,4 +28,61 @@ void function() {
 
   setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
 }()
-    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="site-container"><div class="header-container"><a class="header-title" href="/">192</a><div class="nav-container"><ul class="header-nav"><li id="header-nav-first"><a href="/tags">Tags</a></li><li><a href="/search">Search</a></li><li><div class="toggler"><label class="tog"><input type="checkbox" class="tog-checkbox"/><div class="tog-text">Dark</div></label></div></li></ul></div></div><main><hr/><article><header class="post-header"><h1>Audio examples</h1><p>July 17, 2020</p></header><section><p>Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.</p></section><div class="tag-container"><a class="tag-item" href="/tags/demo">#<!-- -->demo</a></div></article><hr/><nav><ul class="post-nav"><li></li><li></li></ul></nav></main><footer class="footer-copyright">© <!-- -->2020<!-- --> <!-- -->192<!-- -->, Built with<!-- --> <a class="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/demo/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-1f15bb84768e1d0aceed.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-bb5433fc5c978771af2b.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-615057d9e507467c8695.js"],"component---src-templates-blog-index-js":["/component---src-templates-blog-index-js-6669b4d2fe5146961224.js"],"component---src-templates-tag-index-js":["/component---src-templates-tag-index-js-c915debea13949814b91.js"],"component---src-pages-404-js":["/component---src-pages-404-js-9d4d43b7ec78ac94a066.js"],"component---src-pages-search-js":["/component---src-pages-search-js-71b6bdbee9d65185d073.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-6e5678ae212d1da68d48.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-615057d9e507467c8695.js" async=""></script><script src="/commons-8886d4eca7d37a0ab99a.js" async=""></script><script src="/styles-b20442fc9111cfe40353.js" async=""></script><script src="/app-1f15bb84768e1d0aceed.js" async=""></script><script src="/webpack-runtime-d5f93bec9ea28c974d9e.js" async=""></script></body></html>
+    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="site-container"><div class="header-container"><a class="header-title" href="/">192</a><div class="nav-container"><ul class="header-nav"><li id="header-nav-first"><a href="/tags">Tags</a></li><li><a href="/search">Search</a></li><li><div class="toggler"><label class="tog"><input type="checkbox" class="tog-checkbox"/><div class="tog-text">Dark</div></label></div></li></ul></div></div><main><hr/><article><header class="post-header"><h1>Audio examples</h1><p>July 17, 2020</p></header><section><p>Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.</p>
+<h1>JPSV-120E Dataset</h1>
+<p>Each presented song follows song and singer IDs in Tables I and II in the paper. All examples are 16-bit 22050 Hz WAV files.</p>
+<figure>
+<figcaption><b>Ground truth (female)</b></figcaption>
+	<audio controls
+		src="/6e0e2bf65e1f7c5bcd4d8352aaa81be2/A_SOURCE_female_JP.wav">
+	</audio>
+</figure>
+<figure>
+<figcaption><b>Reconstruction (female)</b></figcaption>
+<figcaption>Generator trained using space <b>Zc = 4</b></figcaption>
+	<audio controls
+		src="/b8f06b10a172d58ec329ff30471eec9e/A_Z4_RECON_female_JP.wav">
+	</audio>
+</figure>
+<figure>
+<figcaption><b>Voice Conversion (female &rarr; female)</b></figcaption>
+<figcaption>4 examples generated with a trained model using space <b>Zc = 4</b></figcaption>
+	<audio controls
+		src="/3e47b5ab775b91687feb46a790a9020f/A4_Z4_female_female_JP.wav">
+	</audio>
+	<audio controls
+		src="/c359f14ba8f18a35a8c13db30f435597/A3_Z4_female_female_JP.wav">
+	</audio>
+	<audio controls
+		src="/1ffc5d340c0ecaf3214e58daabe95bc9/A2_Z4_female_female_JP.wav">
+	</audio>
+	<audio controls
+		src="/ed900bb0df13fbba88dd1e9db97fc108/A1_Z4_female_female_JP.wav">
+	</audio>
+	<figcaption>Above examples show varied timbres and successful conversions to different singers</figcaption>
+</figure>
+<figure>
+<figcaption><b>Voice Conversion (female &rarr; male)</b></figcaption>
+<figcaption>4 examples generated with a trained model using space <b>Zc = 4</b></figcaption>
+	<audio controls
+		src="/8fbbb81436adb08ffa3d9058bb582de3/A4_Z4_female_male_JP.wav">
+	</audio>
+	<audio controls
+		src="/2c813a7402bec7c7f66596274f6f0ade/A3_Z4_female_male_JP.wav">
+	</audio>
+	<audio controls
+		src="/32dd2c65980c1c77706b48b43c064d06/A2_Z4_female_male_JP.wav">
+	</audio>
+	<audio controls
+		src="/410176c5111cf8f85a2354999ea5a81e/A1_Z4_female_male_JP.wav">
+	</audio>
+	<figcaption>Above examples show varied timbres and successful conversions to different singers</figcaption>
+</figure>
+<figure>
+<figcaption><b>Voice Conversion (female &rarr; male)</b></figcaption>
+<figcaption>Generator trained using space <b>Zc = 100</b></figcaption>
+	<audio controls
+		src="/cdadbf474ae11634f903c9cb6f5eac6d/A1_Z100_female_male_JP.wav">
+	</audio>
+<figcaption>Example sounds almost the same as the ground truth with <b>no voice conversion</b></figcaption>
+</figure></section><div class="tag-container"><a class="tag-item" href="/tags/demo">#<!-- -->demo</a></div></article><hr/><nav><ul class="post-nav"><li></li><li></li></ul></nav></main><footer class="footer-copyright">© <!-- -->2020<!-- --> <!-- -->192<!-- -->, Built with<!-- --> <a class="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/demo/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-1f15bb84768e1d0aceed.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-bb5433fc5c978771af2b.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-615057d9e507467c8695.js"],"component---src-templates-blog-index-js":["/component---src-templates-blog-index-js-6669b4d2fe5146961224.js"],"component---src-templates-tag-index-js":["/component---src-templates-tag-index-js-c915debea13949814b91.js"],"component---src-pages-404-js":["/component---src-pages-404-js-9d4d43b7ec78ac94a066.js"],"component---src-pages-search-js":["/component---src-pages-search-js-71b6bdbee9d65185d073.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-6e5678ae212d1da68d48.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-615057d9e507467c8695.js" async=""></script><script src="/commons-8886d4eca7d37a0ab99a.js" async=""></script><script src="/styles-b20442fc9111cfe40353.js" async=""></script><script src="/app-1f15bb84768e1d0aceed.js" async=""></script><script src="/webpack-runtime-d5f93bec9ea28c974d9e.js" async=""></script></body></html>

@@ -1,1 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jul 2020 09:24:52 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jul 2020 14:22:15 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. JPSV-120E Dataset Each…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
+&lt;h1&gt;JPSV-120E Dataset&lt;/h1&gt;
+&lt;p&gt;Each presented song follows song and singer IDs in Tables I and II in the paper. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Ground truth (female)&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/6e0e2bf65e1f7c5bcd4d8352aaa81be2/A_SOURCE_female_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Reconstruction (female)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;Generator trained using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/b8f06b10a172d58ec329ff30471eec9e/A_Z4_RECON_female_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (female &amp;rarr; female)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;4 examples generated with a trained model using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/3e47b5ab775b91687feb46a790a9020f/A4_Z4_female_female_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/c359f14ba8f18a35a8c13db30f435597/A3_Z4_female_female_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/1ffc5d340c0ecaf3214e58daabe95bc9/A2_Z4_female_female_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/ed900bb0df13fbba88dd1e9db97fc108/A1_Z4_female_female_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;figcaption&gt;Above examples show varied timbres and successful conversions to different singers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (female &amp;rarr; male)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;4 examples generated with a trained model using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/8fbbb81436adb08ffa3d9058bb582de3/A4_Z4_female_male_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/2c813a7402bec7c7f66596274f6f0ade/A3_Z4_female_male_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/32dd2c65980c1c77706b48b43c064d06/A2_Z4_female_male_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/410176c5111cf8f85a2354999ea5a81e/A1_Z4_female_male_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;figcaption&gt;Above examples show varied timbres and successful conversions to different singers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (female &amp;rarr; male)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;Generator trained using space &lt;b&gt;Zc = 100&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/cdadbf474ae11634f903c9cb6f5eac6d/A1_Z100_female_male_JP.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</content:encoded></item></channel></rss>
