@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 05:52:12 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. JPSV-120E Dataset - Female…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 07:23:21 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. JPSV-120E Dataset - Female…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
 &lt;h1&gt;JPSV-120E Dataset - Female (Song 13 &amp;#x26; ID 27)&lt;/h1&gt;
 &lt;p&gt;Each presented audio example follows song and singer IDs in Tables I and II in the paper. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
 &lt;figcaption&gt;&lt;b&gt;Ground truth (female)&lt;/b&gt;&lt;/figcaption&gt;
 	&lt;audio controls
-		src=&quot;/6e0e2bf65e1f7c5bcd4d8352aaa81be2/A_SOURCE_female_JP.wav&quot;&gt;
+		src=&quot;/4663f12e58405beba0696177a7689aeb/A_SOURCE_female_JP.wav&quot;&gt;
 	&lt;/audio&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
@@ -61,7 +61,7 @@
 &lt;figure&gt;
 &lt;figcaption&gt;&lt;b&gt;Ground truth (male)&lt;/b&gt;&lt;/figcaption&gt;
 	&lt;audio controls
-		src=&quot;/ae2338ed9e647a9195a54b4855ede828/A_SOURCE_male_JP.wav&quot;&gt;
+		src=&quot;/777eaaf8d857127edec70b43f2ed9956/A_SOURCE_male_JP.wav&quot;&gt;
 	&lt;/audio&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
@@ -112,4 +112,120 @@
 		src=&quot;/c256cd88fb649e8572ab7f6861524c24/A4_Z100_male_female_JP.wav&quot;&gt;
 	&lt;/audio&gt;
 &lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</content:encoded></item></channel></rss>
+&lt;/figure&gt;
+&lt;h1&gt;NUS-48E Dataset - Female (Song 13 &amp;#x26; ID 03)&lt;/h1&gt;
+&lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset paper [1]. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Ground truth (female)&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/a2c4984f45c0d226c6d880f04fd24e8f/A_SOURCE_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Reconstruction (female)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;Generator trained using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/350a05c4f669623571cfc28a855cf104/A_Z4_RECON_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (female &amp;rarr; female)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;4 examples generated with a trained model using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/8ab87d418ccf41a6a2201fa1b97fa728/A4_Z4_female_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/dccc4df2fa6ae747e9529ea84deb97e7/A3_Z4_female_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/c57d12cf27cef182d95b629a19d55f98/A2_Z4_female_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/db01ed0d7b338f63bef626f24e8ddeb8/A1_Z4_female_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;figcaption&gt;Above examples show varied timbres and successful conversions to different singers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (female &amp;rarr; male)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;4 examples generated with a trained model using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/3a2aaebc3b2dc1e37ee626654f61a7a8/A4_Z4_female_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/df6c927fffc03b27c967d0ba53e14723/A3_Z4_female_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/3114f9db09f0ccb73513b25aa41564c1/A2_Z4_female_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/deaa936ec236b067546f0d54aee80804/A1_Z4_female_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;figcaption&gt;Above examples show varied timbres and successful conversions to different singers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (female &amp;rarr; male)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;Generator trained using space &lt;b&gt;Zc = 100&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/66c76b2e6117ae05c15614fa78b47fe7/A1_Z100_female_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h1&gt;NUS-48E Dataset - Male (Song 13 &amp;#x26; ID 03)&lt;/h1&gt;
+&lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset paper [1]. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Ground truth (male)&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/0de36fe393d7a1030f7c0b93e1ba1ad2/A_SOURCE_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Reconstruction (male)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;Generator trained using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/30f3bddb135909dded859dab5f8895ca/A_Z4_RECON_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (male &amp;rarr; female)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;4 examples generated with a trained model using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/a4a0387cfea584fd306a27336356237d/A4_Z4_male_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/347b18dde7f7b9edf65dc40eb8aa133e/A3_Z4_male_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/554001cdcf1f2da765a5df2001b3d5d1/A2_Z4_male_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/9600978c0728d146ac70538c9e56bb2e/A1_Z4_male_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;figcaption&gt;Above examples show varied timbres and successful conversions to different singers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (male &amp;rarr; male)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;4 examples generated with a trained model using space &lt;b&gt;Zc = 4&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/218490b3b739dc6926b21f0d28d738b6/A1_Z4_male_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/6e5df02c893cdc7c818ac3573b2bc6e1/A3_Z4_male_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/3f8e8b8ab61c8c40be1e295196794c5d/A2_Z4_male_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;audio controls
+		src=&quot;/a752097a5260c8527451e5f87bd2378b/A4_Z4_male_male_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+	&lt;figcaption&gt;Above examples show varied timbres and successful conversions to different singers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;figcaption&gt;&lt;b&gt;Voice Conversion (male &amp;rarr; female)&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figcaption&gt;Generator trained using space &lt;b&gt;Zc = 100&lt;/b&gt;&lt;/figcaption&gt;
+	&lt;audio controls
+		src=&quot;/714e82a97469c6856baf67ce2184a0b9/A4_Z100_male_female_EN.wav&quot;&gt;
+	&lt;/audio&gt;
+&lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;p&gt;[1]  &lt;a href=&quot;https://smcnus.comp.nus.edu.sg/nus-48e-sung-and-spoken-lyrics-corpus/&quot;&gt;Zhiyan Duan et al. “The NUS sung and spoken lyrics corpus: A quantitative comparison of singing and speech”. In: IEEE Asia-Pacific Signal and InformationProcessing Association Annual Summit and Conference (APSIPA ASC). 2013.&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
