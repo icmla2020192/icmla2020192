@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 07:23:21 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. JPSV-120E Dataset - Female…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 07:28:01 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. JPSV-120E Dataset - Female…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
 &lt;h1&gt;JPSV-120E Dataset - Female (Song 13 &amp;#x26; ID 27)&lt;/h1&gt;
 &lt;p&gt;Each presented audio example follows song and singer IDs in Tables I and II in the paper. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
@@ -113,7 +113,7 @@
 	&lt;/audio&gt;
 &lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h1&gt;NUS-48E Dataset - Female (Song 13 &amp;#x26; ID 03)&lt;/h1&gt;
+&lt;h1&gt;NUS-48E Dataset - Female (Song 18 &amp;#x26; ID 03)&lt;/h1&gt;
 &lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset paper [1]. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
 &lt;figcaption&gt;&lt;b&gt;Ground truth (female)&lt;/b&gt;&lt;/figcaption&gt;
@@ -170,7 +170,7 @@
 	&lt;/audio&gt;
 &lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h1&gt;NUS-48E Dataset - Male (Song 13 &amp;#x26; ID 03)&lt;/h1&gt;
+&lt;h1&gt;NUS-48E Dataset - Male (Song 15 &amp;#x26; ID 10)&lt;/h1&gt;
 &lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset paper [1]. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
 &lt;figcaption&gt;&lt;b&gt;Ground truth (male)&lt;/b&gt;&lt;/figcaption&gt;
