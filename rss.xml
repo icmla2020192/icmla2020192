@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 12:54:58 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. While listening to the…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
-&lt;p&gt;While listening to the following audio examples, please consider that the sonic artifacts present here and in state of the art singing voice conversion methods (e.g., [1] and [2]) are a target of an ongoing research.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[192]]></title><description><![CDATA[A blog for minimalist]]></description><link>https://icmla2020192.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 13:11:37 GMT</lastBuildDate><item><title><![CDATA[Audio examples]]></title><description><![CDATA[Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications. While listening to the…]]></description><link>https://icmla2020192.github.io/demo/</link><guid isPermaLink="false">https://icmla2020192.github.io/demo/</guid><pubDate>Fri, 17 Jul 2020 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Audio examples accompanying paper ID 192 for 19th International Conference of Machine Learning and Applications.&lt;/p&gt;
+&lt;p&gt;While listening to the following audio examples, please consider that the sonic artifacts present here and in state of the art singing voice conversion methods (e.g., &lt;a href=&quot;#ref&quot;&gt;1&lt;/a&gt; and &lt;a href=&quot;#ref&quot;&gt;2&lt;/a&gt;) are a target of an ongoing research.&lt;/p&gt;
 &lt;h1&gt;JPSV-120E Dataset - Female (Song 13 &amp;#x26; ID 27)&lt;/h1&gt;
 &lt;p&gt;Each presented audio example follows song and singer IDs in Tables I and II in the paper. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
@@ -115,7 +115,7 @@
 &lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h1&gt;NUS-48E Dataset - Female (Song 18 &amp;#x26; ID ADIZ)&lt;/h1&gt;
-&lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset [3]. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
+&lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset &lt;a href=&quot;#ref&quot;&gt;3&lt;/a&gt;. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
 &lt;figcaption&gt;&lt;b&gt;Ground truth (female)&lt;/b&gt;&lt;/figcaption&gt;
 	&lt;audio controls
@@ -172,7 +172,7 @@
 &lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h1&gt;NUS-48E Dataset - Male (Song 15 &amp;#x26; ID JLEE)&lt;/h1&gt;
-&lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset [3]. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
+&lt;p&gt;Each presented audio example follows song and singer IDs in the original NUS-48E dataset &lt;a href=&quot;#ref&quot;&gt;3&lt;/a&gt;. All examples are 16-bit 22050 Hz WAV files.&lt;/p&gt;
 &lt;figure&gt;
 &lt;figcaption&gt;&lt;b&gt;Ground truth (male)&lt;/b&gt;&lt;/figcaption&gt;
 	&lt;audio controls
@@ -228,7 +228,7 @@
 	&lt;/audio&gt;
 &lt;figcaption&gt;Example sounds almost the same as the ground truth with &lt;b&gt;no voice conversion&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h3&gt;References&lt;/h3&gt;
-&lt;p&gt;[1] &lt;a href=&quot;https://ismir19-217.github.io/icassp20-audio-sample/&quot;&gt;Yin-Jyun Luo et al. “Singing voice conversion with dis-entangled representations of singer and vocal technique using variational autoencoders”. In: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2020.&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;a name=&quot;ref&quot;&gt;References&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;[1] &lt;a href=&quot;https://ismir19-217.github.io/icassp20-audio-sample/&quot;&gt;Yin-Jyun Luo et al. “Singing voice conversion with disentangled representations of singer and vocal technique using variational autoencoders”. In: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2020.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href=&quot;https://enk100.github.io/Unsupervised_Singing_Voice_Conversion/&quot;&gt;Eliya Nachmani and Lior Wolf. “Unsupervised SingingVoice  Conversion”.  In: Annual  Conference  of  the  International  Speech  Communication  Association  (Inter-speech). 2019.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3]  &lt;a href=&quot;https://smcnus.comp.nus.edu.sg/nus-48e-sung-and-spoken-lyrics-corpus/&quot;&gt;Zhiyan Duan et al. “The NUS sung and spoken lyrics corpus: A quantitative comparison of singing and speech”. In: IEEE Asia-Pacific Signal and InformationProcessing Association Annual Summit and Conference (APSIPA ASC). 2013.&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
